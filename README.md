@@ -1,1 +1,1 @@
-# new-beard.github.io
+# Blog of Lixing
