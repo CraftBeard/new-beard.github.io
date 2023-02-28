@@ -1,0 +1,10 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>高级脂食分子</title>
+        <link>https://new-beard.github.io/en/</link>
+        <description>Hugo theme - LoveIt</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lianglx_alex@163.com (高级脂食分子)</managingEditor>
+            <webMaster>lianglx_alex@163.com (高级脂食分子)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+            <atom:link href="https://new-beard.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+        </channel>
+</rss>
