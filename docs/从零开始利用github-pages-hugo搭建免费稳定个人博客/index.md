@@ -51,16 +51,16 @@ sudo dpkg --install ./hugo_extended_0.62.0_Linux-64bit.deb
 
 #### 创建新Repository
 Repository name一定是要**用户名.github.io**
-![[images/blog/create_repo.png]]
+![[blog/create_repo.png]]
 
 #### Github Setting
 在刚创建的项目Settings-Pages-Branch选择部署的branch和folder
-![[images/blog/github_page.png]]
+![[blog/github_page.png]]
 
 ### 本地Git搭建
 1. 创建一个博客项目文件夹（例如blog）
 2. 仓库主页复制ssh（git@github.com:用户名/用户名.github.io.git）
-![[images/blog/github_ssh.png]]
+![[blog/github_ssh.png]]
 3. 在blog目录下添加远程库
 ``` shell
 git remote add origin git@github.com:new-beard/new-beard.github.io.git
