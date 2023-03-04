@@ -1,0 +1,110 @@
+# 从零开始利用GitHub Pages+Hugo搭建免费稳定个人博客
+
+
+
+## 为什么要搭建个人博客
+现在有各种好用的流量巨大的内容社区，例如知乎，豆瓣，博客园，CSDN，掘金，小红书等，不仅有专业设计UI，还有大量的流量。那为什么我们还要费时费力地搭建个人博客呢？
+对于内容本身来说，也不会有明确边界，一篇文章可以同时发多个平台，无论是否有个人博客都可以发。
+但是，Geek想要的主要是酷，还有就是随心所欲的博客空间，不会因为敏感词被删帖限流。
+所以，如果不是Geek，建议直接使用上述博客就可以。Geek的话我们进入下一步。
+
+
+## 技术栈介绍
+目前搭建个人博客比较方便的就是使用Github Pages + Hugo来搭建，只要**十分钟**就可以看到自己的博客上线了。
+
+
+### GitHub Pages
+官网：https://pages.github.com/
+Github Pages是Github官方提供的静态网页托管服务，可以非常便捷地发布个人博客。
+
+
+### Hugo
+官网：https://gohugo.io/
+免费皮肤：https://themes.gohugo.io/
+Hugo号称是世界上最快的构建网站的框架，主要可以用来生成静态页面。并且Hugo有很多不同风格的免费皮肤，总有一款能满足你的需求。
+
+
+## 博客搭建流程
+博主基于Windows机器，利用WSL来搭建，理论上Linux、Mac机器也类似，但是可能会因为版本问题导致报错，所以需要注意软件版本。
+
+
+### 工具准备
+- WSL（非必须，但更好用）：Ubuntu 18.04.6 LTS
+- Hugo：v0.62.0，因博主选用了LoveIt（https://github.com/dillonzq/LoveIt）主题，因此仅能使用此版本，可能存在其它皮肤需要其它版本，具体需要看报错信息
+
+
+#### WSL
+具体安装可以参考官方文档（https://learn.microsoft.com/en-us/windows/wsl/install）
+
+
+#### Hugo
+具体安装可以参考官方文档（https://gohugo.io/installation/）
+
+Linux安装指定版本命令参考
+``` shell
+curl https://github.com/gohugoio/hugo/releases/download/v0.62.0/hugo_extended_0.62.0_Linux-64bit.deb --output hugo_extended_0.62.0_Linux-64bit.deb
+
+sudo dpkg --install ./hugo_extended_0.62.0_Linux-64bit.deb
+```
+
+### Github搭建
+
+#### 创建新Repository
+Repository name一定是要**用户名.github.io**
+![[images/blog/create_repo.png]]
+
+#### Github Setting
+在刚创建的项目Settings-Pages-Branch选择部署的branch和folder
+![[images/blog/github_page.png]]
+
+### 本地Git搭建
+1. 创建一个博客项目文件夹（例如blog）
+2. 仓库主页复制ssh（git@github.com:用户名/用户名.github.io.git）
+![[images/blog/github_ssh.png]]
+3. 在blog目录下添加远程库
+``` shell
+git remote add origin git@github.com:new-beard/new-beard.github.io.git
+git fetch origin
+git checkout main
+```
+
+### Hugo主题配置
+注意：仅针对LoveIt主题
+在blog目录下运行命令添加主题仓库，并使用主题配置，具体参数可以根据个人喜好自行调整。
+``` shell
+git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt
+cp themes/LoveIt/exampleSite/config.toml .
+```
+config.toml需要注释掉**themesDir = "../.."**，否则会报错。
+
+
+### Hugo项目构建
+1. 新建文章（`hugo new posts/***.md`）
+2. 在blog/content/posts/中完善文章，并在写完后将文章头部信息修改为`draft: false`
+3. 文中图片放在blog/static/中保存
+4. 文章写完后可以本地直接运行命令，通过浏览器调试文章（`hugo -D server`）
+5. 文章调试完成后，可以构建静态网页（`hugo -d docs`）
+6. git push修改到Github仓库，稍等片刻即可看到文章正式发布成功
+
+## 文章发布流程
+1. 在blog/posts/中创建文章，或使用hugo命令创建（`hugo new posts/***.md`）
+2. 撰写及调试文章（图片可以放在static文件夹）
+3. git push到Github仓库，可将下列命令保存为sh文件
+``` shell
+#!/bin/sh
+# If a command fails then the deploy stops
+set -e
+printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
+# Build the project.
+hugo -d docs # if using a theme, replace with `hugo -t <YOURTHEME>`
+# Add changes to git.
+git add .
+# Commit changes.
+msg="publishing site $(date)"
+if [ -n "$*" ]; then
+        msg="$*"
+fi
+git commit -m "$msg"
+# Push source and build repos.
+git push origin main
+```
