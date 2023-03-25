@@ -1,16 +1,27 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>所有文章 - 高级脂食分子</title>
-        <link>https://new-beard.github.io/posts/</link>
-        <description>所有文章 | 高级脂食分子</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>lianglx_alex@163.com (高级脂食分子)</managingEditor>
-            <webMaster>lianglx_alex@163.com (高级脂食分子)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 04 Mar 2023 10:55:18 &#43;0800</lastBuildDate><atom:link href="https://new-beard.github.io/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>从零开始利用GitHub Pages&#43;Hugo搭建免费稳定个人博客</title>
-    <link>https://new-beard.github.io/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%88%A9%E7%94%A8github-pages-hugo%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E7%A8%B3%E5%AE%9A%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
-    <pubDate>Sat, 04 Mar 2023 10:55:18 &#43;0800</pubDate>
-    <author>高级脂食分子</author>
-    <guid>https://new-beard.github.io/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%88%A9%E7%94%A8github-pages-hugo%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E7%A8%B3%E5%AE%9A%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
-    <description><![CDATA[为什么要搭建个人博客 现在有各种好用的流量巨大的内容社区，例如知乎，豆瓣，博客园，CSDN，掘金，小红书等，不仅有专业设计UI，还有大量的流量]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 高级脂食分子</title>
+    <link>https://new-beard.github.io/posts/</link>
+    <description>Recent content in Posts on 高级脂食分子</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>lianglx_alex@163.com (高级脂食分子)</managingEditor>
+    <webMaster>lianglx_alex@163.com (高级脂食分子)</webMaster>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sat, 04 Mar 2023 10:55:18 +0800</lastBuildDate>
+    
+	<atom:link href="https://new-beard.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>从零开始利用GitHub Pages&#43;Hugo搭建免费稳定个人博客</title>
+      <link>https://new-beard.github.io/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%88%A9%E7%94%A8github-pages-hugo%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E7%A8%B3%E5%AE%9A%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Sat, 04 Mar 2023 10:55:18 +0800</pubDate>
+      <author>lianglx_alex@163.com (高级脂食分子)</author>
+      <guid>https://new-beard.github.io/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%88%A9%E7%94%A8github-pages-hugo%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E7%A8%B3%E5%AE%9A%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>为什么要搭建个人博客 现在有各种好用的流量巨大的内容社区，例如知乎，豆瓣，博客园，CSDN，掘金，小红书等，不仅有专业设计UI，还有大量的流量</description>
+    </item>
+    
+  </channel>
 </rss>
