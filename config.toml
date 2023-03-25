@@ -9,7 +9,7 @@ theme = "LoveIt"
 
 # website title
 # 网站标题
-title = "高级脂食分子"
+title = "杂七杂八"
 
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 # 设置默认的语言 ["en", "zh-cn", "fr", "pl", ...]
@@ -558,11 +558,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # utterances comment config (https://utteranc.es/)
       # utterances comment 评论系统设置 (https://utteranc.es/)
       [params.page.comment.utterances]
-        enable = false
+        enable = true
         # owner/repo
-        repo = ""
+        repo="new-beard/new-beard.github.io"
         issueTerm = "pathname"
-        label = ""
+        label="Comment"
         lightTheme = "github-light"
         darkTheme = "github-dark"
       # giscus comment config (https://giscus.app/)
