@@ -1,0 +1,129 @@
+<<<<<<< HEAD
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    ><url>
+            <loc>https://new-beard.github.io/tags/github/</loc><lastmod>2023-03-04T10:55:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>https://new-beard.github.io/tags/hugo/</loc><lastmod>2023-03-04T10:55:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>https://new-beard.github.io/posts/</loc><lastmod>2023-03-04T10:55:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>https://new-beard.github.io/tags/</loc><lastmod>2023-03-04T10:55:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://new-beard.github.io/en/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://new-beard.github.io/tags/"
+                    /></url><url>
+            <loc>https://new-beard.github.io/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%88%A9%E7%94%A8github-pages-hugo%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E7%A8%B3%E5%AE%9A%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc><lastmod>2023-03-04T10:55:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>https://new-beard.github.io/tags/%E5%8D%9A%E5%AE%A2/</loc><lastmod>2023-03-04T10:55:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>https://new-beard.github.io/</loc><lastmod>2023-03-04T10:55:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://new-beard.github.io/en/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://new-beard.github.io/"
+                    /></url><url>
+            <loc>https://new-beard.github.io/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://new-beard.github.io/en/categories/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://new-beard.github.io/categories/"
+                    /></url></urlset>
+=======
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://new-beard.github.io/tags/github/</loc>
+    <lastmod>2023-03-04T10:55:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://new-beard.github.io/tags/hugo/</loc>
+    <lastmod>2023-03-04T10:55:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://new-beard.github.io/posts/</loc>
+    <lastmod>2023-03-04T10:55:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://new-beard.github.io/tags/</loc>
+    <lastmod>2023-03-04T10:55:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://new-beard.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://new-beard.github.io/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://new-beard.github.io/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%88%A9%E7%94%A8github-pages-hugo%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E7%A8%B3%E5%AE%9A%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2023-03-04T10:55:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://new-beard.github.io/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2023-03-04T10:55:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://new-beard.github.io/</loc>
+    <lastmod>2023-03-04T10:55:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://new-beard.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://new-beard.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://new-beard.github.io/categories/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://new-beard.github.io/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://new-beard.github.io/categories/"
+                />
+  </url>
+  
+</urlset>
+>>>>>>> 6054d49e84b6740678e6e7eec077d6c69e72405f
